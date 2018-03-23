@@ -3,6 +3,8 @@ package beans;
 public class StudentBean {
 	private String studentName;
 	private int studentId;
+	public String studentAddress;
+	
 	public String getStudentName() {
 		return studentName;
 	}
